@@ -13,7 +13,7 @@ i = 0
 while i <= 6:
   if(i==6):
      i=0
-  base_url = 'https://api.telegram.org/bot5413394611:AAFE_SLHcKs4orJrL3KrKBqOzlIdwEDI0nM/sendMessage?chat_id=-1001628930827&text={} '.format(messages[i])
+  base_url = 'https://api.telegram.org/()/sendMessage?chat_id=()&text={} '.format(messages[i])
   string="'messages'"
   output=eval(string)
   requests.get(base_url,output) 
